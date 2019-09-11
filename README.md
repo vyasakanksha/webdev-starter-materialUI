@@ -11,9 +11,11 @@ Day 1 Challenges:
 8. Exchange positions of the header and the footer.
 
 Day 2 Challenges: 
+
 Edit CSS with Classes- 
 1. Set the background colour for each of the content divs (food) to light blue. 
 2. Add a solid border around the entire first content grid. 
 3. Change the colour of the header in the about section to red. 
+
 Grid Example - 
 4. Make a section where the first row has 1 columns, the second row has 2 columns and third row has 4 columns. 
