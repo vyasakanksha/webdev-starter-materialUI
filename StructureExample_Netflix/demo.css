@@ -1,0 +1,53 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.main_image {
+	height: 100%;
+	width:100%;
+	background-color: aqua;
+}
+
+.padding-0{
+    padding-right:0.1em;
+    padding-left:0.1em;
+}
+
+body {
+	background: #000000;
+	color: #FFFFFF;
+}
+
+.container{
+	margin:-1em 3em 4em 3em;
+
+}
+
+footer {
+	color: darkgray;
+	font-size: 0.7em;
+	padding: 2em 8em;
+	float: left;
+}
+
+footer ul {
+	list-style: none;
+	line-height: 2em;
+	float: left;
+}
+
+footer p {
+	float: left;
+}
+
+.footer-button {
+	float: left;
+}
+
+.dropdown-menu {
+	background: black;
+	color: aliceblue;
+}
+
+.dropdown-item {
+	color: aliceblue;
+}
