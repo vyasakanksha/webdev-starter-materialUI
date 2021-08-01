@@ -14,13 +14,11 @@ function App() {
       </header>
       
       {/* Router - Pages */}
-      <Router>
-        <Switch>
-          <Route path="/webdev-starter-materialUI/" exact > <Home/> </Route>
-          <Route path="/webdev-starter-materialUI/home" > <Home/> </Route>
-          <Route path="/webdev-starter-materialUI/gallery"  > <Gallery/> </Route>
-        </Switch>
-      </Router>
+          <Switch>
+            <Route path={process.env.PUBLIC_URL + '/'} exact > <Home/> </Route>
+            <Route path={process.env.PUBLIC_URL + '/home'} > <Home/> </Route>
+            <Route path="/gallery"  > <Gallery/> </Route>
+          </Switch>
 
       <footer className="App-footer">
         This is a footer
