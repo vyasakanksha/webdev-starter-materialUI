@@ -17,7 +17,7 @@ function App() {
           <Switch>
             <Route path={process.env.PUBLIC_URL + '/'} exact > <Home/> </Route>
             <Route path={process.env.PUBLIC_URL + '/home'} > <Home/> </Route>
-            <Route path="/gallery"  > <Gallery/> </Route>
+            <Route path={process.env.PUBLIC_URL + '/gallery'}  > <Gallery/> </Route>
           </Switch>
 
       <footer className="App-footer">
