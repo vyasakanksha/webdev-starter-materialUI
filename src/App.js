@@ -1,25 +1,32 @@
-import logo from './Assets/logo.svg';
 import './App.css';
+import ButtonAppBar from './Components/AppBar.js'
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import Home from './Pages/Home.js'
+import Gallery from './Pages/Gallery.js'
+
 
 function App() {
   return (
     <div className="App">
+      {/* Header (Navigation Bar) */}
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <ButtonAppBar/>
       </header>
+      
+      {/* Router - Pages */}
+      <Router>
+        <Switch>
+          <Route path="/webdev-starter-materialUI/" exact > <Home/> </Route>
+          <Route path="/webdev-starter-materialUI/home" > <Home/> </Route>
+          <Route path="/webdev-starter-materialUI/gallery"  > <Gallery/> </Route>
+        </Switch>
+      </Router>
+
+      <footer className="App-footer">
+        This is a footer
+      </footer>
     </div>
   );
-}
+  }
 
 export default App;
