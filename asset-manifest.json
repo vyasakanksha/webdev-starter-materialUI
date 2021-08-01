@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/webdev-starter-materialUI/static/css/main.1558a7ec.chunk.css",
-    "main.js": "/webdev-starter-materialUI/static/js/main.ca5badb1.chunk.js",
-    "main.js.map": "/webdev-starter-materialUI/static/js/main.ca5badb1.chunk.js.map",
+    "main.js": "/webdev-starter-materialUI/static/js/main.1db206e6.chunk.js",
+    "main.js.map": "/webdev-starter-materialUI/static/js/main.1db206e6.chunk.js.map",
     "runtime-main.js": "/webdev-starter-materialUI/static/js/runtime-main.bd48c51f.js",
     "runtime-main.js.map": "/webdev-starter-materialUI/static/js/runtime-main.bd48c51f.js.map",
     "static/js/2.e37bcad8.chunk.js": "/webdev-starter-materialUI/static/js/2.e37bcad8.chunk.js",
@@ -16,6 +16,6 @@
     "static/js/runtime-main.bd48c51f.js",
     "static/js/2.e37bcad8.chunk.js",
     "static/css/main.1558a7ec.chunk.css",
-    "static/js/main.ca5badb1.chunk.js"
+    "static/js/main.1db206e6.chunk.js"
   ]
 }
