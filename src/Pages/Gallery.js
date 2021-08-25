@@ -6,7 +6,7 @@ export default function Gallery() {
     <React.Fragment>
       <Container fixed>
         <p>
-          This is your second page
+          This is your gallery page
         </p>
       </Container>
     </React.Fragment>

@@ -4,6 +4,7 @@ import Toolbar from '@material-ui/core/Toolbar';
 import IconButton from '@material-ui/core/Toolbar'
 import {Link, Router} from "react-router-dom";
 import logo from './../Assets/logo.svg';
+import { AccessAlarm } from '@material-ui/icons';
 
 
 export default function ButtonAppBar() {
@@ -15,7 +16,9 @@ export default function ButtonAppBar() {
                 <IconButton>
                     <img src={logo} className="App-logo" alt="logo" />
                 </IconButton>
+                
             </Link>
+            <AccessAlarm/>
             
           Title Goes Here
             
